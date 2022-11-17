@@ -21,8 +21,7 @@ public class FigureSortingLauncher implements Launcher {
     @Override
     public void runTheAlgorithm() {
         addValuesToCollection();
-        figureSorting.sortFigureWithStream(figureList);
-        System.out.println(figureList);
+        System.out.println(figureSorting.sortFigureWithStream(figureList));
     }
 
     private void addValuesToCollection() {

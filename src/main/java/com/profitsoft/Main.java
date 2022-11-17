@@ -10,6 +10,10 @@ import com.profitsoft.first_second_lectures_task.third_task.impl.FigureSortingIm
 
 public class Main {
     public static void main(String[] args) {
+        startFirstAndSecondLectureTask();
+    }
+
+    private static void startFirstAndSecondLectureTask() {
         Launcher positiveNumberLauncher = new PositiveNumbersLauncher(new PositiveNumbersImpl());
         Launcher hashtagSearchLauncher = new HashtagSearchLauncher(new HashtagSearchImpl());
         Launcher figureSortingLauncher = new FigureSortingLauncher(new FigureSortingImpl());
